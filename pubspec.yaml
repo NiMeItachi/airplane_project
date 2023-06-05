@@ -1,0 +1,45 @@
+name: airplane_project
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+   - family: Outfit
+     fonts:
+      - asset: assets/fonts/outfit/Outfit-Regular.ttf
+      - asset: assets/fonts/outfit/Outfit-Bold.ttf
+      - asset: assets/fonts/outfit/Outfit-Medium.ttf
+      - asset: assets/fonts/outfit/Outfit-Black.ttf
+   - family: Overpass
+     fonts:
+      - asset: assets/fonts/overpass/Overpass-Regular.ttf
+      - asset: assets/fonts/overpass/Overpass-Black.ttf
+      - asset: assets/fonts/overpass/Overpass-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/overpass/Overpass-Italic.ttf
+      - asset: assets/fonts/overpass/Overpass-Medium.ttf
